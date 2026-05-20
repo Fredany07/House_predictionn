@@ -8,8 +8,8 @@ from sklearn.linear_model import LinearRegression
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(page_title="California Housing", page_icon="🏠", layout="wide")
  
-st.title("🏠 California Housing — Machine Learning Dashboard")
-st.markdown("Exploring house prices using **Linear Regression** and **KNN Classification**.")
+st.title("🏠 California Housing Prediction ")
+st.markdown("Exploring house prices")
  
 # ── Load data ─────────────────────────────────────────────────────────────────
 @st.cache_data
